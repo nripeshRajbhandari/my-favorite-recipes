@@ -9,12 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const render = () =>{
   root.render(
     <React.StrictMode>
-      <App />
+      <App state = {store.getState()} dispatch = { store.dispatch }/>
     </React.StrictMode>
   );
 };
 
 store.subscribe(render);
 render();
-
-

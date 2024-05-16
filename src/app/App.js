@@ -1,8 +1,10 @@
-import './App.css';
+function App( props ) {
 
-function App() {
+  const { state, dispatch } = props;
+
   return (
     <div>
+
      
     </div>
   );
