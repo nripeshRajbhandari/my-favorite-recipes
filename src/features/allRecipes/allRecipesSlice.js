@@ -1,4 +1,4 @@
-import allRecipesData from '../../../data.js'
+import allRecipesData from '../../data.js'
 
 //initialize action creator
 export const loadData = () => {
